@@ -1,0 +1,17 @@
+{
+  "autoload": {
+    "psr-4": {
+      "Main\\": "Main/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "ext-pdo": "*",
+    "symfony/dotenv": "^7.0"
+  }
+  ,
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  }
+}
